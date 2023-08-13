@@ -1,0 +1,23 @@
+// Light 폰트 파일의 경로
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('../fonts/NotoSansKR-light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+// Regular 폰트 파일의 경로
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('../fonts/NotoSansKR-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ // Bold 폰트 파일의 경로
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('../fonts/NotoSansKR-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
