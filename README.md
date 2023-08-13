@@ -1,8 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# React-porfolio-230812
+## 리액트로 포트폴리오 홈페이지 만들기
+## 사용 스택
+- vite(프론트엔드 개발 툴)
+- react(프론트엔드 라이브러리)
+- react-router-dom(페이지 라우팅)
+- sass(CSS 전처리기)
+- react-icons
+- react-vertical-timeline-component
