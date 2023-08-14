@@ -10,9 +10,9 @@
     width: 100%;
     height: calc(100vh - 60px - 112px);
     h2 { 
-      font-size: 50px; 
-      line-height: 60px;
-      margin-bottom: 10px;
+      font-size: 5vw; 
+      line-height: 5.5vw;
+      margin-bottom: 1rem;
     }
     background: $main-color;
     color: $text-light;
@@ -30,7 +30,7 @@
         width: 180px;
         text-align: center;
         padding: 8px;
-        margin-top: 2rem;
+        margin-top: 4rem;
       }
     }
   
