@@ -1,14 +1,14 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function ProjectItem(props) {
-  const { title, image } = props;
+  const { title, image, id } = props;
 
   return (
     <div className="project-item">
-      <a href="#" target="_blank">
+      <Link to={`/detail/${id}`}>
         <img src={image} alt={title} />
         <h3>{title}</h3>
-      </a>
+      </Link>
     </div>
   )
 }

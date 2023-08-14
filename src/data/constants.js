@@ -37,7 +37,25 @@ export const timelineText = [
 
 // 프로젝트 작품 정보
 export const projectList = [
-  { title: '카랜더 앱', image: '/images/calendar.png'},
-  { title: '비디오 플레이어', image: '/images/video-player.png'},
-  { title: '리덕스 정보관리 앱', image: '/images/poke-info.png'},
+  { 
+    title: '카랜더 앱', 
+    image: '/images/calendar.png',
+    skills: ['React', 'JavaScript', 'Bootstrap', 'Vite'],
+    url: 'https://react-calendar-csslick.vercel.app/',
+    text: '이 앱은 사용자들이 일정을 관리하고 효율적으로 일정을 조직할 수 있도록 도와줍니다. 간편한 사용자 인터페이스와 직관적인 디자인으로, 일정을 쉽게 추가, 삭제할 수 있습니다. 날짜별로 일정을 확인하고 관리하는 데 도움이 되는 편리한 기능을 제공합니다. 이 앱은 React를 사용하여 개발되었으며, React 컴포넌트를 효율적으로 관리하여 유연하고 확장 가능한 코드를 구축했습니다.',
+  },
+  { 
+    title: '비디오 플레이어', 
+    image: '/images/video-player.png', 
+    skills: ['React', 'JavaScript', 'Vite'],
+    url: 'https://react-calendar-csslick.vercel.app/',
+    text: '이 앱은 사용자들에게 원활하고 편리한 비디오 시청 경험을 제공하기 위해 개발되었습니다. 플레이어의 컨트롤을 사용하여 재생, 일시정지 등을 관리할 수 있습니다. 이 앱은 React를 기반으로 구축되었으며, 미디어 관련 기능을 효율적으로 구현하기 위해 다양한 라이브러리와 기술을 활용하였습니다.',
+  },
+  { 
+    title: '리덕스 정보관리 앱', 
+    image: '/images/poke-info.png',
+    skills: ['React', 'Redux', 'SASS', 'Vite'], 
+    url: 'https://react-calendar-csslick.vercel.app/',
+    text: '이 앱은 복잡한 상태 관리를 간편하게 할 수 있도록 Redux를 활용하여 개발되었습니다. Redux의 미들웨어를 통해 비동기 작업을 처리하고, 컴포넌트 간의 데이터 공유를 용이하게 해줍니다. 이 앱은 React 및 Redux 아키텍처를 기반으로 개발되었으며, 깔끔하고 확장 가능한 코드를 통해 효율적인 상태 관리를 구현하였습니다.'
+  },
 ]

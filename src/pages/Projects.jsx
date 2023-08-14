@@ -7,12 +7,13 @@ export default function Projects() {
       <section>
         <h2>프로젝트</h2>
         <div className="project-list">
-          { projectList.map((project, key) => {
+          { projectList.map((project, i) => {
             return (
               <ProjectItem 
                 title={project.title} 
                 image={project.image} 
-                key={key} 
+                id={i}
+                key={i} 
               />
             )
           })}
