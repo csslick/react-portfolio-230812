@@ -3,7 +3,7 @@
 // PC
 @media screen and (min-width: 500px) {
   .navbar {
-    max-width: 1440px;
+    width: 100%;
     height: 60px;
     background: $main-color;
     color: $text-light;
@@ -40,6 +40,7 @@
 
       &.active { 
         position: absolute;
+        z-index: 999;
         width: 100%;
         height: calc(100vh - 60px);
         left: 0;
