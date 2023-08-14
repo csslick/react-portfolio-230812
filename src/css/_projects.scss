@@ -1,0 +1,79 @@
+// _projects.scss
+
+// PC
+@media screen and (min-width:500px) {
+  .projects {
+    background: #efefef;
+    section {
+      max-width: 1440px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 50px 20px;
+  
+      h2 {
+        font-size: 36px;
+      }
+    }
+  
+    .project-list {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      $gap: 20px; // 1. 칼럼 간격
+      gap: $gap;  // 2. 1 -> 변수
+  
+      .project-item {
+        $col-size: calc((100% - $gap * 2) / 3); // 3. 칼럼 변수(공식 대입)
+        width: $col-size; // 4. 칼럼 사이즈
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        margin-bottom: 40px;
+  
+        img {
+          width: 100%;
+          aspect-ratio: 4/3;
+          object-fit: cover;
+        }
+        h3 { padding: 1em;}
+      }
+    }
+  }  
+}
+
+// Mobile
+@media screen and (max-width: 499px) {
+  .projects {
+    background: #efefef;
+    section {
+      width: 100%;
+      text-align: center;
+      padding: 50px 20px;
+  
+      h2 {
+        font-size: 36px;
+      }
+    }
+  
+    .project-list {
+      margin-top: 20px;
+  
+      .project-item {
+        width: 100%; 
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        margin-bottom: 40px;
+  
+        img {
+          width: 100%;
+          aspect-ratio: 4/3;
+          object-fit: cover;
+        }
+        h3 { padding: 1em;}
+      }
+    }
+  }  
+}
