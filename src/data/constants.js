@@ -34,3 +34,10 @@ export const timelineText = [
     date: 'in progress',
   },
 ]
+
+// 프로젝트 작품 정보
+export const projectList = [
+  { title: '카랜더 앱', image: '/images/calendar.png'},
+  { title: '비디오 플레이어', image: '/images/video-player.png'},
+  { title: '리덕스 정보관리 앱', image: '/images/poke-info.png'},
+]
